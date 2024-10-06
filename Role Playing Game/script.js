@@ -69,7 +69,7 @@ const locations = [
     "button text": ["Go to town square", "Go to town square", "Go to town square"],
     "button functions": [goTown, goTown, goTown],
     text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
-  }
+  },
 ];
 
 // initialize buttons
@@ -193,5 +193,6 @@ function defeatMonster() {
 }
 
 function lose() {
-  
+  update(locations[5]);
 }
+
