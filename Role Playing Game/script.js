@@ -83,7 +83,6 @@ const locations = [
     text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;" 
   }
 ];
-
 // initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
