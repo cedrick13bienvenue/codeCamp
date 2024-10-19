@@ -5,6 +5,7 @@ let currentWeaponIndex = 0;
 let fighting;
 let monsterHealth;
 let inventory = ["stick"];
+
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
@@ -38,7 +39,6 @@ const monsters = [
     health: 300
   }
 ]
-
 const locations = [
   {
     name: "town square",
@@ -83,6 +83,7 @@ const locations = [
     text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;" 
   }
 ];
+
 // initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
@@ -186,6 +187,8 @@ function attack() {
   } else {
     text.innerText += " You miss.";
   }
+  text.innerText += " Your " + inventory.pop() + " breaks.";
+
   healthText.innerText = health;
   monsterHealthText.innerText = monsterHealth;
   if (health <= 0) {
@@ -198,7 +201,7 @@ function attack() {
     }
   }
   if (Math.random() <= .1) {
-    text.innerText += " Your inventory.pop() breaks."
+
   }
 }
 
