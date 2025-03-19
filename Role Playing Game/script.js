@@ -57,7 +57,7 @@ const locations = [
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
   },
-
+  
   {
     name: "cave",
     "button text": ["Fight slime", "Fight fanged beast", "Go to town square"],
