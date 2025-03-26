@@ -31,7 +31,7 @@ const monsters = [
     health: 15
   },
 
-  
+
   {
     name: "fanged beast",
     level: 8,
@@ -215,6 +215,7 @@ function attack() {
     currentWeaponIndex--;
   }
 }
+
 
 function getMonsterAttackValue(level) {
   const hit = (level * 5) - (Math.floor(Math.random() * xp));
