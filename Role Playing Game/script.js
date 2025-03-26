@@ -23,6 +23,7 @@ const weapons = [
   { name: 'sword', power: 100 }
 ];
 
+
 const monsters = [
   {
     name: "slime",
@@ -42,6 +43,7 @@ const monsters = [
     health: 300
   }
   
+
 ]
 const locations = [
   {
