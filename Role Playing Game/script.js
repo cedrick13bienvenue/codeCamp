@@ -243,6 +243,7 @@ function lose() {
   update(locations[5]);
 }
 function winGame() {
+  
   update(locations[6]);
 }
 function restart() {
