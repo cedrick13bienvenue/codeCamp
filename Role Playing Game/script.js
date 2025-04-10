@@ -43,8 +43,6 @@ const monsters = [
     level: 20,
     health: 300
   }
-  
-
 ]
 const locations = [
   {
